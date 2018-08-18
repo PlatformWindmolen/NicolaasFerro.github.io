@@ -20,7 +20,7 @@ Windmolen1
       line-height:1.5em;
       overflow-y:auto;}
  
-  .menu {background-color:purple; color:white; font-weight:bold; font-size:16px; padding:10px; margin-left:2px; float:left; text-align:center;} 
+  .menu {position:relative; background-color:purple; color:white; font-weight:bold; font-size:16px; padding:10px; margin-left:2px; float:left; text-align:center;} 
   
   .land:hover {color:red;}
 
@@ -36,11 +36,13 @@ Windmolen1
  <img id="logo" src="https://previews.123rf.com/images/sergeypykhonin/sergeypykhonin1707/sergeypykhonin170700108/82611150-windmill-mill-logo-or-label-farm-agriculture-bakery-bread-icon-vintage-vector-illustration.jpg";>
  <img id="basfoto" src="http://media.schlijper.nl/normal/12/07/02/120702-05-brouwersgracht-panorama.jpg";>
 
-<script id="tarih">
-    var dt = new Date();
-    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-</script>
-  <div class="menu">Over Ons</div><div class="menu">Lid worden</div><div class="menu">Contact</div><div class="menu">Webshop</div> 
+              <script id="tarih">
+                          var dt = new Date();
+                          document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+              </script>
+ 
+ <div class="menu">Over Ons</div><div class="menu">Lid worden</div><div class="menu">Contact</div><div class="menu">Webshop</div> 
+ 
  <h5 id="yorum">
     <input type="text" placeholder="you can write your comments here!">
     <button type="submit">Submit</button>
