@@ -5,160 +5,145 @@ WindmolenCollege
 
  <style>
  
-  h1 {font:bold 100px calibri light; color:rgb(163, 224, 355); position:absolute; margin-left:130px; top:60px; padding 0px; z-index:3;}
- 
-  #logo {position:sticky; top:150px; left:10px; width:110px; height:80px; z-index:2;}
-  #kayan {position:relative; width:900px; height:300px; margin:25px 1px;  float:left;}
-  #araba {position:relative; width:150px; height:150px; margin:2px; float:down;}
-  #uzunbaslik {background-color:rgb(0, 10, 800); margin:2px; width:880px; height:25px; position:relative;  float:left;
-          border:2px solid blue; font-family:sans-serif; color:white; font-weight:bold; font-size:26px;
-          padding:2px;}
- 
-	 
- .baslik { background-color:rgb(0, 10, 800); margin:2px; width:33%; height:25px; position:relative;  float:left;
-          border:2px solid blue; font-family:sans-serif; color:white; font-weight:bold; font-size:16px;
-          padding:2px;}
+#tepe {background-color:white; width:100%;height:45px;position:fixed; top:1px; z-index:5;} 
+#title {font:bold 100px calibri light; color:rgb(103, 350, 55); position:absolute; margin-left:130px; top:60px; padding 0px; z-index:1;}
 
- .list {border:1px solid blue; position:relative;  float:left;
-      width:33%; height:300px; margin:2px; padding:10px;  line-height:1.5em;
-      overflow-y:auto;}
- 
-  .menu { position:relative; z-index:4; width:10%; height:20px; padding:10px; margin:1px; float:left; background-color:rgb(195, 255, 0); color:black; font-weight:bold; font-size:14px;text-align:center;} 
-  .woord {position:relative; background-color:rgb(200, 221, 55); font-color:red; font-weight:bold; font-size:14px; padding:10px; margin:1px; float:left; text-align:center;} 
-  .land:hover {background-color:rgb(210,105,30);}
-  .fon {background-color:rgb(143,188,143);}
-  .altbaslik {background-color:rgb(195, 255, 0);}
-  .haberfoto {position:relative; width:50px; height:50px; margin:2px; float:left;}	 
- 
-  #yorum {border:1px solid blue; position:relative;  float:left;
-      width:395px; height:277px; margin:25px 1px; padding:10px;
-      line-height:1.2em;
-      overflow-y:auto;}
-  #overons {border:1px solid blue; position:relative;  float:left;
-      width:620px; height:280px; margin:2px; padding:10px;
-      line-height:1.5em;overflow-y:auto;}
-  #filmtv {border:1px solid blue; position:relative;  float:left;
-      width:620px; height:280px; margin:2px; padding:10px;
-      line-height:1.5em; overflow-y:auto;}	 
-	 
-	 
- #contact {background-color: rgb(195, 255, 0); color:black; font-family: Arial; border:1px solid blue; position:relative;  float:left;
-      width:1204px; height:100px; margin:2px; padding:60px; text-align:center;
-      line-height:1.5em;}
+#title2 {font:bold 20px ariel; color:rgb(10, 10, 20); position:absolute; margin-left:130px; top:160px; padding 0px; z-index:3;}
 
-#ehliyet {background-color: white; font-family: Arial; border:1px solid blue; position:relative;  float:left;
-      width:1050px; height:600px; margin:2px; padding:136px; text-align:justify;
-      line-height:1.5em;}	 
+#logo {position:fixed; top:0px; left:10px; width:80px; height:45px; z-index:6;}
 
-#oyun {background-color: white; color:black; font-family: Arial; border:1px solid blue; position:relative;  float:left;
-      width:1210px; height:900px; margin:2px; padding:115px; text-align:center;
-      line-height:1.5em;}
+#kayan {position:relative; width:65%; height:450px; margin:50px 2px; float:left; z-index:1;}
+
+#editor {border:1px solid blue; 
+ text-align:left; font-family:calibri light; font-size:20px; position:relative;  float:right; width:32%; height:480px; margin:50px 2px;  padding:10px; line-height:1.2em; overflow-y:auto;}
+
+#overons {border:1px solid blue; position:relative; float:left; width:620px; height:280px; margin:2px; padding:10px; line-height:1.5em; overflow-y:auto;}
+
+#contact {background-color: black; color:white; font-family: Arial; border:1px solid blue; position:relative;  float:left; width:100%; height:100px; margin:2px; padding:60px; text-align:center; line-height:1.5em;}
+
+#filmtv {border:1px solid blue; position:relative;  float:left; width:620px; height:280px; margin:2px; padding:10px; line-height:1.5em; overflow-y:auto;}
+
+#Boeken {}
+
+#araba {position:relative; width:150px; height:150px; margin:2px; float:down;}
+
+#ehliyet {background-color: white; font-family: Arial; border:1px solid blue; position:relative;  float:left; width:1000px; height:600px; margin:2px; padding:100px; text-align:justify; line-height:1.5em;}
+
+
+.menu { position:relative; width:9%; height:20px; padding:10px; margin:1px 2px; float:right; background-color:rgb(195, 255, 0); color:black; font-weight:bold; font-size:14px;text-align:center;} 
+
+.land {background-color:rgb(180,255,151);width:98%; height:100px}
+ 
+.baslik { background-color:rgb(0, 10, 800); margin:5px; width:32%; height:25px; position:relative;  float:left;
+border:2px solid blue; font-family:sans-serif; color:white; font-weight:bold; font-size:16px; padding:2px;}
+
+.altbaslik {background-color:rgb(195, 255, 0);}
+
+.list {border:1px solid blue; position:relative; text-align:left; float:left; width:31%; height:500px; margin:5px; padding:10px;  line-height:1.5em; overflow-y:auto;}
+
+.haberfoto {position:relative; width:120px; height:80px; margin:5px; float:left;}	
+
+
 	
 </style>
 
 	
 
 <body>
-	
   
- <p10 style="position:fixed;">
-	
-	 <div class="menu"> <a href="#Boek">Boeken      </a></div>
- 	 <div class="menu"> <a href="#Tv">TV&Bioscoop   </a></div>
-	 <div class="menu"> <a href="#Werk">Werk&Leven  </a></div>
-	 <div class="menu"> <a href="#contact">Contact  </a></div>	 
-	 <div class="menu"> Woordenboeken </div>
+  <div id="tepe">
+    <div class="menu"><a href="#Boeken"> Boeken</a></div>
+    <div class="menu"><a href="#Tv">TV&Bioscoop   </a></div>
+    <div class="menu"> <a href="#Werk">Werk&Leven  </a></div>
+       <div class="menu"> <a href="#contact">Contact  </a></div>	 
+	 <div class="menu"><a href="#ehliyet">Auto & Rijbewijs </div>
 	 <div class="menu"> <a href="https://www.vandale.nl/">Van Dale    </a></div>
  	 <div class="menu"> <a href="https://nl.bab.la/woordenboek/nederlands-engels/nederland">Bab.la   </a></div>
 	 <div class="menu"> <a href="https://translate.google.com/?hl=nl">Translate  </a></div>
-	 <div class="menu"> <a href="http://www.mijnwoordenboek.nl/ww.php">Vervoegen  </a></div>
-</p10> <br>
-	
+      <div class="menu"> <a href="http://www.mijnwoordenboek.nl/ww.php">Vervoegen  </a></div>
+      </div>
+
  <img id="logo" src="https://static.wixstatic.com/media/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.jpg/v1/fill/w_142,h_80,al_c,q_80,usm_0.66_1.00_0.01/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.webp";>
 
- <h1> Windmolen </h1>
-
-  
-
-    	
-   	<img id="kayan" src="http://resimdiyari.com/_data/i/upload/2012/10/14/20121014182832-c7880087-me.jpg"> 
-
-	 
-	 
-<h5 id="yorum">
-
+<div id="kayan"><img style="width:100%; height:auto;" src="http://resimdiyari.com/_data/i/upload/2012/10/14/20121014182832-c7880087-me.jpg"> 
+ 
+  <div><a id="title"> Windmolen </a></div><div><a id="title2"> Een Platform voor Nieuwkomers in Nederland </a> </div>
+</div>
+ <h2 id="editor">
 	Dear Visitors! <br>
 	Welcome to our site. In this site you will find useful information that may help you at developing your language level in Dutch. Furthermore you can find tips and advices regarding life in Nederland. Besides them, we select some news from Nederland’s main pres. We hope you enjoy the site.<br>
 	<br> <strong> Why Windmolen? </strong><br>
 	It means windmill in Dutch. It is one of the symbols of Nederland. It is used to transfer the water between chanals. It is a symbol of environmentally friendly energy. It reminds nature and clean air. :)It has a bold and innocent stance against Don Quixote.
-	<a class="land"> Read more. </a> <br><br>
-    <input type="text" placeholder="you can write your comments here!">
-    <input type="text" placeholder="your e-mail here!">
-    <button type="submit">Submit</button>
+	<a class="land"> Read more. <br></a>
+  
    
-</h5 ><br>
+    <img style="width:200px; height:auto" src="https://static.wixstatic.com/media/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.jpg/v1/fill/w_142,h_80,al_c,q_80,usm_0.66_1.00_0.01/60fa59_f04a7d7825bf49f7aea70435dcde8295~mv2.webp";>
+</h2>
 
-<h2 style="float:clear both">
-<div class="baslik" >Windmolen Nieuws </div>
-	
-<div class="baslik" >Windmolen School </div>
-	
-<div class="baslik" >Windmolen Taal   </div><br>
-	</h2>
 
-	<ul class="list" >
-	
-   <li class="land" class="fon"> <img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> 
+ <div style="clear:both;">
+   <h3 class="baslik" >Windmolen Nieuws </h3>
+   <h4 class="baslik" >Windmolen School </h4>
+   <h5 class="baslik" >Windmolen Taal</h5>
+ </div>
+ 
+ <div style="float:clear both;"> 
+ <ul class="list" >
+   <li class="land"> <img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> 
    <a href="https://www.ad.nl/binnenland/staatsexamen-uitgesteld-inburgeraars-snakken-naar-test~a4eb2e3b/">
-   <strong> AD : </strong> Staatsexamen uitgesteld: inburgeraars snakken naar test </a></li><br>
+   <strong> AD : </strong> <br>Staatsexamen uitgesteld: inburgeraars snakken naar test </a></li><br>
    
-   <li class="land" class="fon"><a href="https://nos.nl/artikel/2255192-examens-nederlands-als-tweede-taal-uitgesteld.html">
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a href="https://nos.nl/artikel/2255192-examens-nederlands-als-tweede-taal-uitgesteld.html">
    <strong> NOS </strong><br> Examens Nederlands als tweede taal uitgesteld. -- NOS </a></li><br>
    
-   <li class="land" class="fon"><a  href="https://www.volkskrant.nl/es-bf7caf1e"><strong> Volkskrant</strong><br> 
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a  href="https://www.volkskrant.nl/es-bf7caf1e"><strong> Volkskrant</strong><br> 
 	  Ombudsman: Inburgering geeft nieuwkomers een valse start in Nederland.   </a></li><br>
   
-   <li class="land" class="fon" ><a href="https://www.volkskrant.nl/nieuws-achtergrond/migratiesaldo-in-nederland-bereikt-recordhoogte-een-plus-van-81-duizend-~b0cbd569/">
+   <li class="land"><img class="haberfoto" src="https://images0.persgroep.net/rcs/5H3tbg2bM2JgonSk8i5em0vlppU/diocontent/140908839/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9"> <a href="https://www.volkskrant.nl/nieuws-achtergrond/migratiesaldo-in-nederland-bereikt-recordhoogte-een-plus-van-81-duizend-~b0cbd569/">
    Migratiesaldo in Nederland bereikt recordhoogte: een plus van 81 duizend.  </li></a><br>
-
 	  </ul> 
- 
- <p class="list">
-	 <a class="altbaslik">USEFUL VIDEOS</a><br>
-	 <a href="https://www.youtube.com/watch?v=Ic4a2KKRwg4&utm_source=Weekly+newletter+Learndutch.org&utm_campaign=112f20b7e9-startsubclause_COPY_01&utm_medium=email&utm_term=0_efbe1f10f1-112f20b7e9-276953161&mc_cid=112f20b7e9&mc_eid=6af5c6c1a5">How to learn Dutch? Bart de Pau.</a> <br> 
-	 <a href="https://www.youtube.com/watch?v=hes7RfuNqvU">Education System in Nederland</a><br>
-	 <a href="NicolaasFerro.github.io/onderwijssysteem-nederland.pdf">Onderwijssysteem in Nederland (pdf) </a> <br>
-	 <a href="https://www.khanacademy.org/">Khan Academy(English)</a><a href="https://nl.khanacademy.org/">(Nederlands)</a></br>
+
+
+   <ul class="list">
+    <iframe width="453" height="281" src="https://www.youtube.com/embed/hes7RfuNqvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+   <a class="altbaslik">USEFUL VIDEOS</a><br>
+	 <li><a href="https://www.youtube.com/watch?v=Ic4a2KKRwg4&utm_source=Weekly+newletter+Learndutch.org&utm_campaign=112f20b7e9-startsubclause_COPY_01&utm_medium=email&utm_term=0_efbe1f10f1-112f20b7e9-276953161&mc_cid=112f20b7e9&mc_eid=6af5c6c1a5">How to learn Dutch? Bart de Pau.</a> <br> 
+	 <li><a href="https://www.youtube.com/watch?v=hes7RfuNqvU">Education System in Nederland</a><br>
+	 <li><a href="NicolaasFerro.github.io/onderwijssysteem-nederland.pdf">Onderwijssysteem in Nederland (pdf) </a> <br>
+	 <li><a href="https://www.khanacademy.org/">Khan Academy(English)</a><a href="https://nl.khanacademy.org/">(Nederlands)</a></br>
 	 <a class="altbaslik">SITES VOOR OPLEIDING</a><br>
-	 <a href="http://wiskundeacademie.nl/">WiskundeAcademie...Matematik Dersleri</a><br> 
-	 <a href="https://schooltv.nl/">Schooltv</a><br>
-	 <a href="https://www.entoen.nu/">Geschiedenis van Nederland/History of Netherland/Hollanda'nin Tarihi</a><br>	 
-	 <a href="https://www.uaf.nl/home/"> UAF (Het UAF ondersteunt hoogopgeleide vluchtelingen bij het realiseren van een passende maatschappelijke positie.) </a><br>
-	 <a href="https://www.idw.nl/nl/diplomawaardering.html"> IDW (Voor diplomawaardering) </a><br>	
-</p>
-	
- <p class="list" >
- 	
- 	 <a class="altbaslik">TAAL SITES</a><br>
+	 <li><a href="http://wiskundeacademie.nl/">WiskundeAcademie...Matematik Dersleri</a><br> 
+	 <li><a href="https://schooltv.nl/">Schooltv</a><br>
+	 <li><a href="https://www.entoen.nu/">Geschiedenis van Nederland/History of Netherland/Hollanda'nin Tarihi</a><br>	 
+	 <li><a href="https://www.uaf.nl/home/"> UAF (Het UAF ondersteunt hoogopgeleide vluchtelingen bij het realiseren van een passende maatschappelijke positie.) </a><br>
+	 <li><a href="https://www.idw.nl/nl/diplomawaardering.html"> IDW (Voor diplomawaardering) </a><br>	
+  </ul></div>
+
+
+<ul class="list" >
+   <a class="altbaslik">TAAL SITES</a><br>
          In the following links, you can find videos and TV programs which may help you on developing your listening comprehention in Dutch. <br>
-	 <a href="https://www.youtube.com/watch?v=Tb3SaTv4clM"> Woord Voor Woord </a><br>
-	 <a href="https://www.bookbox.com"> BookBox </a> <br> 
-	 <a href="https://www.learndutch.org/">Learndutch.org.(Bart de Pou) </a><br> 
-	 <a href="http://virtueletraining.com/">Virtuale Training</a><br>
-	 <a href="https://jeugdjournaal.nl/"> NOS Jeugdjournaal</a> <br> 
-	 <a href="https://www.hetklokhuis.nl/"> Klockhuis </a><br> 
-	 <a href="https://www.netinnederland.nl/"> NetinNederland <br>  
-	 <a href="https://www.2doc.nl/"> Documentaries met Ondertitel <br> 
-         <a href="http://www.taalwinkel.nl/">TaalWinkel : Hét online taaladviespunt HvA en UvA <br>
-	 <a href="https://nt2taalmenu.nl/"> Nt2taalmenu <br> <a href="https://oefenen.nl/"> Oefenen.nl </a> <br>
-	 <a href="https://www.npostart.nl"> NPO Start </a> <br> Wij danken aan de eigenaars van sites en we kondigen aan dat wij geen inkommst krijgen.<br> 
- </p>
-  
+	 <li><a href="https://www.youtube.com/watch?v=Tb3SaTv4clM"> Woord Voor Woord </a><br>
+	 <li><a href="https://www.bookbox.com"> BookBox </a> <br> 
+	 <li><a href="https://www.learndutch.org/">Learndutch.org.(Bart de Pou) </a><br> 
+	 <li><a href="http://virtueletraining.com/">Virtuale Training</a><br>
+	 <li><a href="https://jeugdjournaal.nl/"> NOS Jeugdjournaal</a> <br> 
+	 <li><a href="https://www.hetklokhuis.nl/"> Klockhuis </a><br> 
+	 <li><a href="https://www.netinnederland.nl/"> NetinNederland <br>  
+	 <li><a href="https://www.2doc.nl/"> Documentaries met Ondertitel <br> 
+   <li> <a href="http://www.taalwinkel.nl/">TaalWinkel : Hét online taaladviespunt HvA en UvA <br>
+	 <li><a href="https://nt2taalmenu.nl/"> Nt2taalmenu <br> <a href="https://oefenen.nl/"> Oefenen.nl </a> <br>
+	 <li><a href="https://www.npostart.nl"> NPO Start </a> <br> Wij danken aan de eigenaars van sites en we kondigen aan dat wij geen inkommst krijgen.<br> 
+ </ul>  </div>
+
+     
+ <div style="clear:both;">    
 <h5 class="baslik" id="Boek" >WM Boeken</h5>
 <h6 class="baslik" id="Tv">WM TV&Bioscoop</h6>
-<h7 class="baslik" id="Werk">WM Werk&Leven&ICT </h7><br>
-		 
-  <p class="list"><strong class="altbaslik"> BOEKEN </strong> <br> 
+<h7 class="baslik" id="Werk">WM Werk&Leven&ICT </h7>		
+     </div>   
+     
+  <p id="Boeken" class="list"><strong class="altbaslik"> BOEKEN </strong> <br> 
 	  <a href="http://www.debestseller60.nl/">  Kijk ook Nederlands bestseller lijt! </a> <br>
 	  SAMENVATTING//KONING VAN KATOREN </strong> <br>
 Op de avond dat de koning van Katoren overlijdt wordt er een jongetje geboren: Stach. De dag na zijn geboorte valt zijn vader uit de vlaggenmast en overlijdt ook. Zijn moeder schrikt hier zo van dat zij de kraamvrouwenkoorts niet overleeft. Vanaf nu zal de oom van Stach (Gervaas) voor hem gaan zorgen. Er werd geen nieuwe koning benoemd. En op een avond droomde Gervaas dat Stach de koning van Katoren was.
@@ -169,36 +154,9 @@ De burgemeester van Decibel legt alles uit over de vogels van Decibel. Na een aa
 Het was feest in Decibel. Stachs eerste opdracht was geslaagd.
 Opdracht twee was: hak in Wapenfelt de granaatappelboom om. In de trein naar Wapenfelt komt Stach de dochter van de burgemeester tegen: Kim. Zij vertelt alles over de granaatappelboom. Aan de boom groeien in plaats van appels granaten. Als die granaten van de boom op de grond vallen geeft dat een daverende explosie. 
 Stach wordt tijdens een bezoekje aan de granaatappelboom door een granaat geraakt. Hij moet in bed blijven om te genezen. In bed bedenkt Stach een plan. Hij zorgt ervoor dat de kruitfabriek (die bij de granaatappelboom in de buurt staat) stopt met het produceren van kruit. Omdat er dan geen gevaarlijke stoffen (kruit) uit de schoorsteen van de fabriek de lucht in verdwijnt groeien er weer gewone appels aan de boom. Zo kon de boom worden omgehakt. 
-Opdracht twee was ook geslaagd. En Stach had een nieuw vriendinnetje: Kim. Ze beloven contact te houden.
-Stach zijn derde opdacht is de draak van Smook te doden. Deze draak heeft zeven koppen. Als je alle zeven koppen er afhakt groeien ze alle zeven weer aan.
-Zodra Stach aankomt in Smook merkt hij al wat een vieze lucht er daar is. Je kunt door de viezigheid de zon niet eens zien! Iedereen rijdt daar in vreemde karretjes en iedereen heeft haast. Overal staan prachtige huizen. Dit komt omdat iedereen (zo hoort hij later van de burgemeester) hier zo hard werkt dat ze allemaal ontzettend rijk zijn. Na kennisgemaakt te hebben met de burgemeester en een aantal bewoners van Smook weet Stach alles over de draak van Smook. De viezigheid in de lucht is de adem van de draak. Ook krijgt hij nog een mooie liefdesbrief van Kim. Een paar dagen later gaat Stach op weg naar de draak met als enige wapen een geweer met 1 kogel. Zodra hij de draak ziet, en de draak hem, schiet hij. Een wonder: hij schiet raak. De draak spat uit elkaar. De lucht wordt weer schoon. En ook Stach's derde opdracht is geslaagd.
-De ministerraad is erg boos dat Stach nu al drie opdrachten heeft voltooid. Zij bedenken een nog moeilijker opdracht. Hij moet een eind maken aan de schuifelende kerken van Uikumene.
-In Uikumene zijn twaalf kerken. Deze kerken kunnen heel langzaam schuifelen. Ze kunnen alleen vooruit, dus niet achteruit. De bewoners van Uikumene hebben hier erg veel last van, want als een kerk bijv. een huis tegenkomt schuifelt hij daar zonder pardon overheen. Stach weet dat de kerken op een speciale manier gestuurd kunnen worden. Ook weet hij dat het sturen niet altijd goed gaat. Toch bedenkt hij een plan waarbij het sturen een grote rol speelt. Hij zorgt ervoor dat alle kerken op hetzelfde tijdstip, op dezelfde plek bij elkaar komen. Het plan wordt uitgevoerd. Zodra alle kerken bij elkaar komen duwen ze tegen elkaar, daardoor kunnen ze niet meer bewegen. Van de twaalf kerken wordt 1 kerk gemaakt. Nu heeft Uikumene de grootste kerk ooit. En Stach zijn vierde opdracht is ook geslaagd.
-De ministerraad heeft nu iets verschrikkelijk bedacht: opdracht 4a. Stach moet van de bovenste omloop van de St.-Aloïsius afspringen. Iets wat Stach nooit zal doen.
-Kim leest in de krant dat Stach een opdracht 4a krijgt. Ze gaat ook meteen naar Wiss (Stach woont in Wiss) toe om Stach te helpen.
-Stach durft niet van de St.-Aloïsius af te springen, maar hij gaat wel naar alle mensen die daar zijn om hem toe te juichen, om uit te leggen waarom hij niet springt. Hij weet niet dat Kim een plannetje heeft bedacht. Zij heeft gezorgd dat iedereen die naar Stach komt kijken 1 of meer kussens mee neemt. Van die kussens wordt een hele grote stapel gemaakt. Zodra Stach bij de St.-Aloïsius aankomt ziet hij alle kussens en hij springt. Opdracht 4a is gelukt. En Stach kan nog een paar dagen genieten bij Gervaas en van zijn Kim. Stach krijgt een brief waar zijn (5de) opdracht instaat: Genees de knobbelneuzen in Afzette-Rije. Stach gaat de uitdaging tegemoet.
-Afzette-Rije is een hele arme stad. Al snel komt Stach er achter hoe dat komt. De neuzen die hij moet genezen zijn geen normale neuzen. Zo heb je de rode koolneus, de bloemkoolneus, de paddestoelneus, de uierneus, de oorneus, de rabarberneus, te veel om op te noemen. De enige die de neuzen kunnen genezen zijn de h.h.Tara's. Zij komen op bezoek en geven je een zalfje. Ze zijn alleen ontzettend duur. Ze kosten een tientje per woord dat ze bij een bezoek uitspreken.En je moet ook nog eens voor het zalfje betalen.
-Stach komt een meisje, Irma, tegen. Zij heeft een paddestoelneus. Zij vertelt hem dat de zalfjes nu niet meer werken. En als ze dat wel deden zou je een emmer zalf nodig hebben. En dat kost veel te veel. 
-Stach vraagt aan iedereen die zalf gebruikt of ze de overgebleven zalf aan hem willen geven. Na een paar dagen heeft Stach een hele pot vol en die geeft hij aan Irma. Hij vraagt of ze iedere avond haar neus hiermee in wil smeren. En ja de zalf werkt. De neus van Irma krimpt heel langzaam.
-Irma zorgt er voor dat Stach een echte Tara wordt. Hij krijgt een kostuum van de toneel club, en hij wordt goed opgemaakt. Stach zorgt er voor dat hij te zien krijgt hoe een zalfje wordt gemaakt. Er zit gewoon mosterd, wijnazijn, bloem, slaolie en veengrond in. Stach gaat deze spullen kopen en laat aan alle bewoners van Afzette-Rije zien hoe je zo'n zalfje maakt. De Tara's moeten voor straf alles waar de inwoners voor betalen het drie dubbele betalen, tot zij in net zulke arme huizen wonen als de inwoners van Afzette-Rije nu. Stach's vijfde opdracht is ook geslaagd.
-Stach zijn zesde opdracht is: vernietig de tovenaar van Ekilibrië.
-De tovenaar van Ekilibrië heet Pantaar. Iedere avond bezoekt hij 1 huis. Je weet nooit van tevoren welk huis. Soms is hij er de vorige week ook al geweest. Bij sommige huizen is hij al 100 jaar niet geweest. Hij belt aan. Er wordt opengedaan. En hij vraagt om een aalmoes, maar je moet hem ook een offer brengen. Iets wat je echt zult missen. Pantaar voelt of je echt iets dierbaars weggeeft. Als je dat niet doet neemt hij bijv. je hond, al je geld, je fotoalbum, of nog erger. En als je je verzet verandert hij je in een gangklok.
-Op een dag wordt er bij de burgemeester aangebeld zij bezit helemaal niets en ze geeft Pantaar haar portemonnee. Pantaar schudt zijn hoofd en gaat naar binnen. Daar ziet hij Stach zitten. Pantaar neemt Stach mee. In de bergen aangekomen gaan ze een grot binnen. Pantaar wil Stach in het vuur duwen, maar Stach haalt hem over om eerst nog even met hem te praten. Pantaar vertelt dat het vuur elke avond met iets dierbaars gevoed moet worden. Gebeurt dit niet dan zal Ekilibrië in de grond verzinken. Maar als iemand zich vrijwillig in het vuur stort dan zal het vuur honderd maal honderdduizend jaar zonder andere offers blijven branden. Stach belooft dat als de tovenaar hem nu laat gaan hij morgen zichzelf vrijwillig in het vuur zal storten. Pantaar twijfelt want hij moet dan weer een offer gaan halen en hij gelooft niet dat Stach terug zal komen, maar toch stemt hij in. 
-Maar de volgende dag zit Stach wel bij de grot. Pantaar is verbaasd en gaat met Stach de grot in. Stach vraagt hem waarom hij niet veel eerder is gestopt met het offeren. Pantaar zelf heeft dat zichzelf ook al vaak afgevraagd. Hij zegt dat hij en Stach allebei dom zijn, maar dat hij oud en Stach nog jong is. Hij zegt: "Aanvaard, o vuur dit geringe offer." Met een nijdige grauw stort hij zich in de vlammen en is verdwenen.
-Anderhalve dag houdt Stach de wacht bij het vuur en dan gaat hij weer terug naar het gemeentehuis. Stach's 6de opdracht is ook geslaagd. Hij neemt de trein weer terug naar Wiss.
-De ministers houden een vergadering in het park. Minister Seer komt met het idee om de laatste opdracht gemakkelijk te maken. Maar de ministers vinden dat de opdracht ook weer niet te gemakkelijk moet zijn. Stach krijgt de volgende opdracht: neem plaats op de Stenen Stoel van Stellingwoude. 
-Stellingwoude is een klein stadje. En er staat een hele grote stenen stoel in. Stach loopt er naar toe. Om de stoel staat een ijzeren hek. De poort is afgesloten met een ketting en hangslot. Aan de poort is een houten bord vastgemaakt waar opstaat: 
-Wie deze stoel beklimt vermake aan zijn erven
-tevoren geld en goed, want hij zal zeker sterven. 
-Hij gaat een cafeetje binnen en vraagt daar wie de sleutel van de Stenen Stoel van Stellingwoude heeft. Het antwoordt is Geesje van Dorp. Stach gaat naar Geesje en vertelt dat hij op de Stenen Stoel wil gaan zitten en vraagt om de sleutel. Geesje vertelt hem dat je alleen op de stoel kunt plaats nemen als 6 belangrijkere personen je er op tillen. Anders zul je zeker sterven.
-Stach gaat naar huis en komt met het idee dat de ministers hem op de Stenen Stoel van Stellingwoude tillen. Hij gaat met deze vraag naar de ministers en na precies 2 dagen krijgt hij een brief van de ministers waarin staat de ze geen aanleiding hebben gezien om aan zijn verzoek te voldoen.
-Stach koopt een velletje postzegels en schrijft een brief aan alle zes de burgemeesters over zijn 7de opdracht. Ook bedankt hij ze voor alles wat ze voor hem gedaan hebben. Ook schrijft hij een brief aan Kim. Ook hierin zet hij dat hij over een week de Stenen Stoel van Stellingwoude zal beklimmen. 
-Zodra de week voorbij is zijn er al vijf burgemeesters gekomen. Ze zijn ook best bereid om Stach op de stoel te tillen, maar Kim is bang. Ze zegt tegen Stach dat het net zo gevaarlijk is om je door vijf hoge mensen op te stoel te tillen dan zonder. Maar Stach zegt dat ze zich geen zorgen moet maken.
-Maar net voor dat Stach, Gervaas, Kim en de vijf burgemeesters willen vertrekken naar de stoel komt de burgemeester van Smook aanrijden. En zo heeft Stach zijn zes personen bij elkaar. Zodra ze bij de Stenen Stoel van Stellingwoude aankomen tillen de burgemeesters Stach in de stoel. Alle mensen die waren komen kijken (en dat waren er heel veel) beginnen te juichen. "LEVE DE KONING VAN KATOREN!" 
-Stach is nu koning en benoemt de zes burgemeesters tot zijn ministers. De vorige ministers krijgen een andere taak. Er zijn heel veel brieven binnen gekomen met allerlei opdrachten die Stach wel eens had kunnen moeten doen. De oud ministers krijgen allemaal 1 brief waar een opdracht in staat. Hun taak is nu om dit probleem op te lossen.
-Nadat Kim haar school heeft afgemaakt trouwt Stach met haar. En zij leefden nog lang en gelukkig. <br>
-</p>
- <p class="list"><strong class="altbaslik"> FILMS EN TV PROGRAMMAS </strong> <br> 
+Opdracht twee was ook geslaagd. En Stach had een nieuw vriendinnetje: Kim. Ze beloven contact te houden.</p>
+  
+     <p class="list"><strong class="altbaslik"> FILMS EN TV PROGRAMMAS </strong> <br> 
 	<Strong> DE FILMS DIE IK RAAD U AAN TE KIJKEN  </strong><br>
 	 Bankier van het Verzet (2018)<br>
 	 The 13th Warrior (1999) <br>
@@ -216,27 +174,21 @@ Het programma draait om een spel, waarbij de kandidaten moeten samenwerken om ge
 De kandidaten reizen naar het buitenland, waar ze allerlei opdrachten moeten uitvoeren. Deze bestemmingen wisselen per seizoen.
 Na elke ronde (elke twee/drie dagen) krijgen de kandidaten via een laptop twintig vragen (in de finale veertig vragen) over de identiteit van de mol. De laatste vraag van deze test is altijd "Wie is de Mol?", waarbij de kandidaten moeten aangeven wie ze denken dat de mol is. Degene die de minste goede antwoorden geeft (rood scherm), ligt uit het spel en gaat direct naar huis. 
 Uiteindelijk blijven er drie kandidaten in de finale over. Een wint, een verliest en de derde is de mol. De kandidaat die in de finale de test het beste maakt, wint Wie is de Mol? en daarmee de pot met het geld.
-
-	
 	</p>
 
-<p class="list"><strong class="altbaslik"> Hier zijn wat nuttig links. </strong> <br> 
-	<a href="https://refugeestartforce.eu/"> *** Refugee Start Force </a><br>
+<p class="list">
+  <strong class="altbaslik"> Hier zijn wat nuttig links. </strong> <br> 	<a href="https://refugeestartforce.eu/"> *** Refugee Start Force </a><br>
 	<a href="http://hackyourfuture.net/"> *** Hack Your Future </a><br>
-        <a href="https://www.freecodecamp.org/news/beaucarnes/learn-javascript-full-course--j4Va5cR1p"> --- Javascript Curses </a><br>
+ <a href="https://www.freecodecamp.org/news/beaucarnes/learn-javascript-full-course--j4Va5cR1p"> --- Javascript Curses </a><br>
 	<a href="https://whichmuseum.nl/nederland/beste-musea"> Beste 100 Musea in Nederland! </a><br>											       
 	<a href="#ehliyet"> Ehliyet ve Araba İşlemleri </a><br>
-	<a href="..."> Bilgisayar Oyunları </a><br>				 
+				 
 </p>
-	
-<p id="contact"> 
-	Contact <br>ferronicolaas@gmail.com <br> Wij verwachten graag uw contributies en tips. </p>
 
-<p id="ehliyet"> 
+     <p id="ehliyet"> 
 	<strong id="uzunbaslik">Het Rijden in Nederland </strong>
 	<img id="araba" src="https://www.oyuncakfabrikasi.com/ProductImages/109798/middle/vosvos-oyuncak-araba-1.jpg"> 
-	
-<br><strong class="altbaslik">Hollanda’da Ehliyet Almak* </strong><br>(*The Text is writen in Turkish/De tekst is geschreven in het Turks)<br>
+<strong class="altbaslik">Hollanda’da Ehliyet Almak* </strong><br>(*The Text is writen in Turkish/De tekst is geschreven in het Turks)<br>
 AB üyesi ülkelerinden alınmış ehliyeti olanlar, ehliyetlerini doğrudan  Hollanda ehliyeti ile değiştirebilirler. Diğer ülkelerden alınan ehliyetler sadece 185 gün geçerli. Bu süre, Hollanda’da sürekli ikamet etmeye basladığınız tarihten itibaren başlıyor.
 Ehliyet sınavlarını Hollanda’da CBR adı verilen bir kuruluş yapıyor. Teori ve pratik olmak üzere iki sınav var. 
 Teori sınavına CBR sitesinden şahsen basvurulabiliyor. Hollandaca sınav 31,5 Euro. Sınava İngilizce de (37 Euro ) girebilirsiniz. Ya da Türkçe tercümanla da girebilirsiniz. Ancak tercüman 200-250 Euro civarında.. Sınava bir kurs araciliğla hazırlanabileceginiz gibi, kendiniz de calışabilirsiniz. Ancak iyi çalısmak gerekli. Zira sınav zor, birçok kişi, ikinci yada üçüncü hakkında geçebiliyor. Kütüphaneden yada internetten siparişle bir kitap temin edebilirsiniz. Ayrıca internette teori dersleri ve soruları bulmak mümkün. Sinav iki bölümden oluşuyor. Birinci bölümde 25 soru var ve en az 15 doğru yapmanız gerekiyor. Bu bolümde trafik akışı içerisinde sürücü mahvilinden görülen farklı durumlarda göstereceğiniz tepki ölçülüyor. “Frene bas”, Gazı serbest bırak” yada “Oldugun gibi devam et” şeklinde üç seçenek sunuluyor. 
@@ -245,12 +197,11 @@ Teori sınavına CBR sitesinden şahsen basvurulabiliyor. Hollandaca sınav 31,5
 <br> Nelere dikkat etmeli:<br>
 Hollanda’da bisiklet trafiği yoğun oldugu için dönüslerde ve kavsaklarda bisiklet yollarinin kontrolü baş saga veya sola döndürülerek yapilmali, sadece gozle degil. Yoksa elenirsiniz. Ayrica Hollanda’daki yol ceşitleri iyi ögrenilmeli. 30 km lik yollarda kavşaklar eşit önceliklidir, yani sağdan gelen trafiğe öncelik vermek gerekiyor. Ayrıca Hollanda’da sürücülerden, trafiği sürekli açık bırakacak şekilde seri araç kullanılmasi ve hız limitlerinin iyi kullanılması bekleniyor. İlave olarak, burada yol üzerinde yönlendirme okları çizilmiş. İzi doğru takip etmezseniz farklı yönlere girmek zorunda kalırsınız. Bunlar gibi geldiğiniz ülkelere kıyasla daha birçok farklılık var. Bunları kurs hocanız anlatacaktır. 
 Sınavı geçince, CBR, belediyenize bir yazı gönderiyor. Ehliyetinizi almak için belediyenize başvuruyorsunuz. Bir hafta içinde teslim ediliyor.
-
 Kolay gelsin.<br>
 Araba alımı konusuda bilgiler yakında geliyor.
- </p>	
-<iframe width="453" height="281" src="https://www.youtube.com/embed/hes7RfuNqvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		 
-		
-</body>
-<html>
+     </p>    
+     
+ <p id="contact"> 
+Contact: <br>ferronicolaas@gmail.com <br> Wij verwachten graag uw contributies en tips. </p>  
+     </div>
+</body>  
